@@ -1,0 +1,18 @@
+### Cadastrar Folha
+
+POST https://localhost:7103/api/folha/cadastrar
+Content-Type: application/json
+
+{
+    "valor" : 100,
+    "quantidade": 100,
+    "mes": 10,
+    "ano": 2023,
+    "funcionarioId": 1
+}
+
+### Listar 
+GET https://localhost:7103/api/folha/listar
+
+### Buscar por cpf, mes e ano
+GET https://localhost:7103/api/folha/buscar/12345678900/10/2023
